@@ -56,13 +56,13 @@ int main() {
 
     int* supply = (int*)malloc(numSuppliers * sizeof(int));
     for (int i = 0; i < numSuppliers; i++) {
-        printf("Achaa yavuulah gazar %d: ", i+1);
+        printf("Achaa yavuulah gazar %d : ", i+1);
         scanf("%d", &supply[i]);
     }
 
     int* demand = (int*)malloc(numConsumers * sizeof(int));
     for (int i = 0; i < numConsumers; i++) {
-        printf("Achaa huleen avah gazar %d: ", i+1);
+        printf("Achaa huleen avah gazar %d : ", i+1);
         scanf("%d", &demand[i]);
     }
 
